@@ -1,3 +1,6 @@
+// ì•Œê³ ë¦¬ì¦˜ ê³¼ì œìž…ë‹ˆë‹¤. 
+
+
 #include <iostream>
 using namespace std;
 
@@ -12,22 +15,22 @@ public:
 double DivCal::run(int a, int b) {
 
 	if (b == 0) {
-		cout << "0À¸·Î ³ª´­ ¼ö ¾ø´Ù" << endl;
+		cout << "0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ë‹¤" << endl;
 		return -1;
 	}
 
-	return (double)a / (double)b;        // ³ª´°¼ÀÀº °á°ú°¡ Á¤¼ö°¡ ¾Æ´Ò ¼ö ÀÖÀ¸¹Ç·Î Çüº¯È¯
+	return (double)a / (double)b;        // ë‚˜ëˆ—ì…ˆì€ ê²°ê³¼ê°€ ì •ìˆ˜ê°€ ì•„ë‹ ìˆ˜ ìžˆìœ¼ë¯€ë¡œ í˜•ë³€í™˜
 }
 
 int main() {
 	int x, y;
 	DivCal Go;
 
-	cout << "µÎ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä" << endl;
+	cout << "ë‘ ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”" << endl;
 
 	cin >> x >> y;
 
-	cout << "³ª´°¼ÀÀÇ °á°ú´Â : " << Go.run(x, y) << "ÀÔ´Ï´Ù." << endl;
+	cout << "ë‚˜ëˆ—ì…ˆì˜ ê²°ê³¼ëŠ” : " << Go.run(x, y) << "ìž…ë‹ˆë‹¤." << endl;
 
 	return 0;
 }
